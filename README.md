@@ -11,7 +11,8 @@
 <img src="https://github.com/HYWCL/Kaggle---Contrail/assets/86766552/94d8cf71-a5c5-4187-9cdf-f5d8bd224077" width="250" height="250"/>
 <img src="https://github.com/HYWCL/Kaggle---Contrail/assets/86766552/1902d658-0bf6-4b33-9f70-9757f2c1a694" width="250" height="250"/>
 
-왼쪽부터 순서대로 False Color Image, Ground Truth Contrail Mask, Contrail Mask on False Color Image 입니다.
+왼쪽부터 순서대로 Image인 False Color Image, Mask인 Ground Truth Contrail Mask이며 마지막은 Image위에 Mask를 겹친 것입니다. <br>
+Semantic Segmentation을 기반으로 모델을 구축하고 훈련 데이터로 False Color Image를 넣어 Ground Truth Contrail Mask를 찾는 게 목표인 대회입니다.
 
 ## 코드 설명
  - contrail-unet-train.ipynb (Pytorch - Unet을 이용한 훈련)
